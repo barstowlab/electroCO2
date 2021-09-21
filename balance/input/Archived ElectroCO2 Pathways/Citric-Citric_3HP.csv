@@ -1,0 +1,6 @@
+#,Reaction,ATP,NADH,CO2,HCO3-,Acetyl-CoA,Pyruvate,Oxaloacetate,Citrate,EC Number,Reference,Notes
+,,Input,Input,Input/Output,Input/Output,Intermediate,Intermediate,Intermediate,Target,,,Production of citric acid from CO2
+1,6 HCO3- + 10 ATP + 12 NADH → 2 pyruvate,-10,-12,,-6,,2,,,3-hydroxypropionate (3HP) Cycle,"Zarzycki et al. {Zarzycki2009a}, Herter et al. {Herter2002a}",
+2,2 pyruvate → 2 acetyl-coA + 2 NADH + 2 CO2,,2,2,,2,-2,,,,"Berg et al. {Berg2007a}, Schomburg et al. {Schomburg2017a}",
+3,Pyruvate + CO2 → Oxaloacetate,,,-1,,,-1,1,,1.1.1.40,KEGG,
+4,Acetyl-CoA + H2O + Oxaloacetate → Citrate + CoA ,,,,,-1,,-1,1,2.3.3.1,KEGG,

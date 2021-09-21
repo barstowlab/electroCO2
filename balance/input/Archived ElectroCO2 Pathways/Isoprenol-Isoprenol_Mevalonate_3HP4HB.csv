@@ -1,0 +1,12 @@
+#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate,NADPH,H2O,Aceto-Acetyl-CoA,(S)-3-Hydroxy-3-methylglutaryl-CoA,(R)-Mevalonate,(R)-5-Phosphomevalonate,(R)-5-Diphosphomevalonate,Isopentenyl diphosphate,Isoprenol,EC Number,Reference,Notes
+,,Input,Input,Input,Input/Output,Input/Output,Intermediate,Intermediate,Intermediate,Input/Output,Intermediate,Intermediate,Intermediate,Intermediate,Intermediate,Intermediate,Target,,,
+1,6 HCO3- + 10 ATP + 10 NADH → 2 pyruvate,-10,-10,,,-6,,2,,,,,,,,,,3-hydroxypropionate/4-hydroxybutyrate (3HP-4HB) Pathway,"Berg et al. {BergI2007a}, Claassens et al. {Claassens2016a}",
+2,2 pyruvate → 2 acetyl-coA + 2 NADH + 2 CO2,,2,,2,,2,-2,,,,,,,,,,,"Berg et al. {Berg2007a}, Schomburg et al. {Schomburg2017a}",
+3,NADH → NADPH,,-1,,,,,,1,,,,,,,,,,,
+4,2 Acetyl-CoA → CoA + Aceto-Acetyl-CoA,,,,,,-2,,,,1,,,,,,,2.3.1.9,Adesina2017a,A to B
+5,Acetyl-CoA + H2O + Acetoacetyl-CoA → (S)-3-Hydroxy-3-methylglutaryl-CoA + CoA,,,,,,-1,,,-1,-1,1,,,,,,2.3.3.10,Adesina2017a,HMGCS
+6,(S)-3-Hydroxy-3-methylglutaryl-CoA + 2 NADPH + 2 H+ → (R)-Mevalonate + CoA + 2 NADP+,,,,,,,,-2,,,-1,1,,,,,1.1.1.34,Adesina2017a,HMGCR
+7,ATP + (R)-Mevalonate → ADP + (R)-5-Phosphomevalonate,-1,,,,,,,,,,,-1,1,,,,2.7.1.36,Adesina2017a,MVK
+8,ATP + (R)-5-Phosphomevalonate → ADP + (R)-5-Diphosphomevalonate,-1,,,,,,,,,,,,-1,1,,,2.7.4.2,Adesina2017a,MVGK2
+9,ATP + (R)-5-Diphosphomevalonate → ADP + Orthophosphate + Isopentenyl diphosphate + CO2,-1,,,1,,,,,,,,,,-1,1,,4.1.1.33,Adesina2017a,MVD
+10,Isopentenyl Diphosphate → Isoprenol + Diphosphate,,,,,,,,,,,,,,,-1,1,3.6.1.67,Adesina2017a,nudB
