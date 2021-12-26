@@ -5,37 +5,42 @@ from utils.balanceUtils import ImportStoichiometricMatrix, BalanceStoichiometric
 PrintStoichiometry
 
 
-directory = 'input/ElectroCO2 Pathways/'
+directory = 'input/ElectroCO2 Stoichiometric Matrices/'
 outputFileName = 'output/electroCO2-nReactants.csv'
 
 
 
 
 fileList = [\
+'Acetic-Acetic_3HP.csv', \
 'Acetic-Acetic_3HP4HB.csv', \
+'Acetic-Acetic_4HB.csv', \
 'Acetic-Acetic_CBB.csv', \
 'Acetic-Acetic_FORM.csv', \
-
+'Acetic-Acetic_RTCA.csv', \
+'Acetic-Acetic_WL.csv', \
+'Citric-Citric_3HP.csv', \
 'Citric-Citric_3HP4HB.csv', \
+'Citric-Citric_4HB.csv', \
 'Citric-Citric_CBB.csv', \
 'Citric-Citric_FORM.csv', \
-
+'Citric-Citric_RTCA.csv', \
+'Citric-Citric_WL.csv', \
+'DKG-DKG_3HP.csv', \
 'DKG-DKG_3HP4HB.csv', \
+'DKG-DKG_4HB.csv', \
 'DKG-DKG_CBB.csv', \
 'DKG-DKG_FORM.csv', \
-
-'Gluconate-Gluconate_3HP4HB.csv', \
-'Gluconate-Gluconate_CBB.csv', \
-'Gluconate-Gluconate_FORM.csv', \
-
-'Glycine-GLY_3HP4HB.csv', \
-'Glycine-GLY_CBB.csv', \
-'Glycine-GLY_FORM.csv' \
+'DKG-DKG_RTCA.csv', \
+'DKG-DKG_WL.csv', \
+'Gluc-Gluconate_3HP.csv', \
+'Gluc-Gluconate_3HP4HB.csv', \
+'Gluc-Gluconate_4HB.csv', \
+'Gluc-Gluconate_CBB.csv', \
+'Gluc-Gluconate_FORM.csv', \
+'Gluc-Gluconate_RTCA.csv', \
+'Gluc-Gluconate_WL.csv' \
 ]
-
-
-
-
 
 
 # regText = r'.*\.csv'

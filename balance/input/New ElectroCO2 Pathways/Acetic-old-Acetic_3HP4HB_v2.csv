@@ -1,0 +1,5 @@
+#,Reaction,ATP,ADP,NADH,NAD+,Phosphate,CO2,HCO3-,Acetyl-CoA,Pyruvate,Acetate,EC Number,Reference,Notes
+,,Input,Input,Input,Input,Input/Ouput,Input/Output,Input/Output,Intermediate,Intermediate,Target,,,Reactions to produce acetic acid from CO2
+1,6 HCO3- + 10 ATP + 10 NADH → 2 pyruvate + 10 ADP + 10 NAD+,-10,10,-10,10,,,-6,,2,,3-hydroxypropionate/4-hydroxybutyrate (3HP-4HB) Pathway,"Berg et al. {BergI2007a}, Claassens et al. {Claassens2016a}",
+2,2 pyruvate + 2 NAD+  → 2 acetyl-coA + 2 NADH + 2 CO2,,,2,-2,,2,,2,-2,,,"Berg et al. {Berg2007a}, Schomburg et al. {Schomburg2017a}",
+2,Acetyl-CoA + ADP + phosphate → Acetate + ATP + CoA,1,-1,,,-1,,,-1,1,1,6.2.1.13,KEGG R0229,
