@@ -1,8 +1,0 @@
-#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate, Malonyl-CoA,3-Oxopropanoate,NADPH,3-Hydroxypropionate,EC Number,Reference,Notes
-,,Input,Input,Input,Input/Output,Input/Output,Intermediate,Intermediate,Intermediate,Intermediate,Intermediate,Target,,,
-1,6 HCO3- + 10 ATP + 12 NADH → 2 pyruvate,-10,-12,,,-6,,2,,,,,3-hydroxypropionate (3HP) Cycle,"Zarzycki et al. {Zarzycki2009a}, Herter et al. {Herter2002a}",
-2,2 pyruvate → 2 acetyl-coA + 2 NADH + 2 CO2,,2,,2,,2,-2,,,,,,"Berg et al. {Berg2007a}, Schomburg et al. {Schomburg2017a}",
-3,ATP + Acetyl-CoA + HCO3- → ADP + Orthophosphate + Malonyl-CoA,-1,,,,-1,-1,,1,,,,6.4.1.2,KEGG,
-4,Malonyl-CoA + NADPH + H+ → 3-Oxopropanoate + CoA + NADP+,,,,,,,,-1,1,-1,,1.2.1.75,KEGG,
-5,NADH → NADPH,-1,,,,,,,,,1,,,,
-6,3-Oxopropanoate + NADPH + H+ → 3-Hydroxypropionate + NADP+,,,,,,,,,-1,-1,1,1.1.298,KEGG,

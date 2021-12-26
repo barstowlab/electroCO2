@@ -1,6 +1,0 @@
-#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate,HCO2-,3-PG,Oxaloacetate,Citrate,EC Number,Reference,Notes
-,,Input,Input,Input,Input/Output,Input,Intermediate,Intermediate,Input,Intermediate,Intermediate,Target,,,
-1,6 HCO3- + 10 ATP + 10 NADH → 2 pyruvate,-10,-10,,,-6,,2,,,,,3-hydroxypropionate/4-hydroxybutyrate (3HP-4HB) Pathway,"Berg et al. {BergI2007a}, Claassens et al. {Claassens2016a}",
-2,2 pyruvate  → 2 acetyl-coA + 2 NADH + 2 CO2,,2,,2,,2,-2,,,,,,"Berg et al. {Berg2007a}, Schomburg et al. {Schomburg2017a}",
-3,Pyruvate + CO2 → Oxaloacetate,,,,-1,,,-1,,,1,,1.1.1.40,KEGG RC00040,An alternative is EC 6.4.1.1 ATP + Pyruvate + HCO3- <=> ADP + Orthophosphate + Oxaloacetate
-4,Acetyl-CoA + H2O + Oxaloacetate → Citrate + CoA,,,,,,-1,,,,-1,1,2.3.3.1,KEGG RC00351,

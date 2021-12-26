@@ -1,5 +1,0 @@
-#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate,Acetate,EC Number,Reference,Notes
-,,Input,Input,Input,Input/Output,Input,Intermediate,Intermediate,Target,,,
-1,4 CO2 + 4 ATP + 8 NADH → 2 acetyl-CoA,-4,-8,,-4,,2,,,Reductive TCA cycle,"Alissandratos et al. {Alissandratos2015a}, Claassens et al. {Claassens2016a}",
-2,2 Fdred + Acetyl-CoA + CO2 -> Pyruvate,,,-2,-1,,-1,1,,1.2.7.1  ,,
-3,Acetyl-CoA + ADP + phosphate → Acetate + ATP + CoA,1,,,,,-1,,1,6.2.1.13,KEGG R0229,This is the higher energy efficiency acetate forming reaction. 

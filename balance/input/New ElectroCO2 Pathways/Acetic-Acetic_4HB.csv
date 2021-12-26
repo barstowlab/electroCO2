@@ -1,4 +1,0 @@
-#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate,Acetate,EC Number,Reference,Notes
-,,Input,Input,Input,Input/Output,Input,Intermediate,Intermediate,Target,,,
-1,1 CO2 + 1 HCO3- + 3 ATP + 1 NADH + 6 Fd → acetyl-CoA,-3,-1,-6,-1,-1,1,,,Dicarboxylate/4-hydroxybutyrate (4HB) Cycle,Huber et al. {Huber2008a},
-3,Acetyl-CoA + ADP + phosphate → Acetate + ATP + CoA,1,,,,,-1,,1,6.2.1.13,KEGG R0229,This is the higher energy efficiency acetate forming reaction. 

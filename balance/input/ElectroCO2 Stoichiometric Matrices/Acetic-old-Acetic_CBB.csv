@@ -1,5 +1,0 @@
-#,Reaction,ATP,NADH,Fdred,CO2,HCO3-,Acetyl-CoA,Pyruvate,Acetate,EC Number,Reference,Notes
-,,Input,Input,Input,Input/Output,Input,Intermediate,Intermediate,Target,,,
-1,2 CO2 + 7 ATP + 4 NADH → 1 Acetyl-CoA,-7,-4,,-2,,1,,,Calvin Cycle,Salimijazi2020b,
-2,3 CO2 + 7 ATP + 5 NADH → 1 Pyruvate,-7,-5,,-3,,,1,,Calvin Cycle,Salimijazi2020b,
-3,Acetyl-CoA + ADP + phosphate → Acetate + ATP + CoA,1,,,,,-1,,1,6.2.1.13,KEGG R0229,This is the higher energy efficiency acetate forming reaction. 

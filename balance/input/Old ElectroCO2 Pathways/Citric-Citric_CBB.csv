@@ -1,6 +1,0 @@
-#,Reaction,ATP,NADH,CO2,Acetyl-CoA,Pyruvate,Oxaloacetate,Citrate,EC Number,Reference,Notes
-,,Input,Input,Input/Output,Intermediate,Intermediate,Intermediate,Target,,,Production of citric acid from CO2
-1,2 CO2 + 7 ATP + 4 NADH → 1 Acetyl-CoA,-7,-4,-2,1,,,,Calvin Cycle,Salimijazi2020b,
-2,3 CO2 + 7 ATP + 5 NADH → 1 Pyruvate,-7,-5,-3,,1,,,Calvin Cycle,Salimijazi2020b,
-3,Pyruvate + CO2 → Oxaloacetate,,,-1,,-1,1,,1.1.1.40,KEGG,
-4,Acetyl-CoA + H2O + Oxaloacetate → Citrate + CoA ,,,,-1,,-1,1,2.3.3.1,KEGG,
