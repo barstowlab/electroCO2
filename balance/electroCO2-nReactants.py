@@ -12,34 +12,34 @@ outputFileName = 'output/electroCO2-nReactants.csv'
 
 
 fileList = [\
-'Acetic-Acetic_3HP.csv', \
-'Acetic-Acetic_3HP4HB.csv', \
-'Acetic-Acetic_4HB.csv', \
-'Acetic-Acetic_CBB.csv', \
-'Acetic-Acetic_FORM.csv', \
-'Acetic-Acetic_RTCA.csv', \
-'Acetic-Acetic_WL.csv', \
-'Citric-Citric_3HP.csv', \
-'Citric-Citric_3HP4HB.csv', \
-'Citric-Citric_4HB.csv', \
-'Citric-Citric_CBB.csv', \
-'Citric-Citric_FORM.csv', \
-'Citric-Citric_RTCA.csv', \
-'Citric-Citric_WL.csv', \
-'DKG-DKG_3HP.csv', \
-'DKG-DKG_3HP4HB.csv', \
-'DKG-DKG_4HB.csv', \
-'DKG-DKG_CBB.csv', \
-'DKG-DKG_FORM.csv', \
-'DKG-DKG_RTCA.csv', \
-'DKG-DKG_WL.csv', \
-'Gluc-Gluconate_3HP.csv', \
-'Gluc-Gluconate_3HP4HB.csv', \
-'Gluc-Gluconate_4HB.csv', \
-'Gluc-Gluconate_CBB.csv', \
-'Gluc-Gluconate_FORM.csv', \
-'Gluc-Gluconate_RTCA.csv', \
-'Gluc-Gluconate_WL.csv' \
+'Acetic_3HP.csv', \
+'Acetic_3HP4HB.csv', \
+'Acetic_4HB.csv', \
+'Acetic_CBB.csv', \
+'Acetic_FORM.csv', \
+'Acetic_RTCA.csv', \
+'Acetic_WL.csv', \
+'Citric_3HP.csv', \
+'Citric_3HP4HB.csv', \
+'Citric_4HB.csv', \
+'Citric_CBB.csv', \
+'Citric_FORM.csv', \
+'Citric_RTCA.csv', \
+'Citric_WL.csv', \
+'DKG_3HP.csv', \
+'DKG_3HP4HB.csv', \
+'DKG_4HB.csv', \
+'DKG_CBB.csv', \
+'DKG_FORM.csv', \
+'DKG_RTCA.csv', \
+'DKG_WL.csv', \
+'Gluconic_3HP.csv', \
+'Gluconic_3HP4HB.csv', \
+'Gluconic_4HB.csv', \
+'Gluconic_CBB.csv', \
+'Gluconic_FORM.csv', \
+'Gluconic_RTCA.csv', \
+'Gluconic_WL.csv' \
 ]
 
 
