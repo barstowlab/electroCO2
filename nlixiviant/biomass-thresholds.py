@@ -10,12 +10,12 @@ bioEnergyPotentialArray = [100e18, 300e18, 600e18, 1200e18]
 biomassEnergyDensity = 15e3
 
 # Parameters for conversion of biomass potential to corresponding zeta
-massCarbonGrams = 1e16
+massCarbonGrams = (12/44) * 20 * 1e15
 MWForsterite = 141
-MWLix = 196
+MWGluc = 196.16
 MWCarbon = 12
 nCarbonForsterite = 2
-conversionFactor = (MWCarbon * nCarbonForsterite) / (massCarbonGrams * MWForsterite * MWLix)
+conversionFactor = (MWCarbon * nCarbonForsterite) / (massCarbonGrams * MWForsterite * MWGluc)
 
 
 # Biomass Potential (in gigatonnes per year)
