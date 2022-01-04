@@ -1,5 +1,5 @@
-Biomass Potential Energy (J),Biomass Potential (Gigatonnes),
-1e+20,6.666666666666667
-3e+20,20.0
-6e+20,40.0
-1.2e+21,80.0
+Biomass Potential Energy (J),Biomass Potential (Gigatonnes),Zeta (grams per mole),
+1e+20,6.666666666666667,0.0005789549862498191
+3e+20,20.0,0.0017368649587494573
+6e+20,40.0,0.0034737299174989146
+1.2e+21,80.0,0.006947459834997829
