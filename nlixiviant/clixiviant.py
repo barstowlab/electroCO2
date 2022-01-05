@@ -5,7 +5,7 @@ from utils.specutils12 import ensure_dir
 # ------------------------------------------------------------------------------------------------ #
 zetaArray = logspace(-5, 0, num=50)
 zetaArray = list(zetaArray)
-zetaArray += [2e-4, 5.8e-4, 1.74e-3, 3.47e-3, 6.95e-3]
+zetaArray += [2e-4, 2.23e-4, 1.06e-3, 3.18e-3, 6.36e-3, 1.27e-2]
 
 # Mass of carbon to be sequestered (in grams), in this case it corresponds to 1 tonne of CO2. 
 mCarbon = (12/44)*1e6
@@ -21,6 +21,18 @@ MW_Ace = 60.052
 MW_Cit = 192.124
 MW_DKG = 191.12
 MW_Gluc = 196.16
+
+# MWForsterite: Molecular weight of magnesium olivine (usually ≈ 140 grams per mole)
+MWForsterite = 141
+
+# MWCarbon: Molecular weight of just the carbon atom (12 grams per mole)
+MWCarbon = 12
+
+
+# nCarbonOlivine: Number of carbon atoms sequestered by dissolution of a single asymmetric unit 
+# of olivine (2 at most)
+nCarbonForsterite = 2
+
 
 # Cost of solar electricity (Dollars per joule)
 CelecSunShot = 8.3333e-9
@@ -109,18 +121,4 @@ ensure_dir(outputFileName)
 
 writeOutputMatrix(outputFileName, oMatrix)
 # ------------------------------------------------------------------------------------------------ #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

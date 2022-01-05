@@ -10,7 +10,7 @@ from utils.specutils12 import ensure_dir
 # corresponding to 20 GtCO2 per year
 mCarbon = (12/44) * 20 * 1e15
 
-# MWOlivine: Molecular weight of olivine (usually ≈ 140 grams per mole)
+# MWForsterite: Molecular weight of magnesium olivine (usually ≈ 140 grams per mole)
 MWForsterite = 141
 
 # MWCarbon: Molecular weight of just the carbon atom (12 grams per mole)
